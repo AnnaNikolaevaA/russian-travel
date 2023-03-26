@@ -211,3 +211,30 @@
     line-height: 1.22;
     z-index: 1;
 }
+
+.footer {
+    max-width: 1184px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 48px;
+}
+
+.footer__links {
+    display: flex;
+    gap: 18px;
+}
+
+.footer__link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.12;
+}
+
+.footer__copyright {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+}
