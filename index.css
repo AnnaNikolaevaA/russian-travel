@@ -122,3 +122,57 @@
 .gallary__item {
     width: 100%;
 }
+
+.places {
+    max-width: 984px;
+    margin: 0 auto 92px;
+    box-sizing: border-box;
+    display: grid;
+    gap: 80px;
+}
+
+.place {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    column-gap: 40px;
+    row-gap: 48px;
+}
+
+.place__title {
+    margin: 0;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+}
+
+.place__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+}
+
+.place__url-heading {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+
+.place__link {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+}
+
+.place__image {
+    max-width: 100%;
+}
+
+.place__paragraph {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.63;
+}
