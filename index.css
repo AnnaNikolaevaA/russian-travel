@@ -113,7 +113,7 @@
 .gallary {
     max-width: 1184px;
     padding: 0 48px;
-    margin: 0 auto;
+    margin: 0 auto 92px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, auto));
     gap: 16px;
