@@ -4,6 +4,14 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 1.17;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.lang__link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 460px) {

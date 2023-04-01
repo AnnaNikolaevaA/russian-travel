@@ -1,4 +1,10 @@
 .cover__link {
+    position: relative;
     text-decoration: none;
     color: inherit;
+    background-image: url(../../../images/bottom-image.jpg);
+    max-width: 1184px;
+    background-size: cover;
+    padding: 31% 0;
+    display: block;
 }

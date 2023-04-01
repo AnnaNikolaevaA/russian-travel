@@ -1,9 +1,16 @@
 .place__text {
-    display: grid;
-    gap: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 1024px) {
+    .place__text {
+        gap: 26px;
+    }
+}
+
+@media screen and (max-width: 984px) {
     .place__text {
         gap: 25px;
     }
